@@ -8,7 +8,7 @@ React coding test
 
 ![Alt text](public/assets/img-3.jpg)
 
-![Alt text](public/assets/img-4.jpg)
+![Alt text](public/assets/img-4.jpg) 
 
 # Create a repository from this template
 - Click on `Use this template` dropdown on this repo page.
