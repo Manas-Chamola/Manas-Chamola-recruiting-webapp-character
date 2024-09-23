@@ -1,6 +1,15 @@
 # recruiting-webapp-character
 React coding test
 
+# Screenshots
+![Alt text](public/assets/img-1.jpg)
+
+![Alt text](public/assets/img-2.jpg)
+
+![Alt text](public/assets/img-3.jpg)
+
+![Alt text](public/assets/img-4.jpg)
+
 # Create a repository from this template
 - Click on `Use this template` dropdown on this repo page.
 - select `Create a new repository`
