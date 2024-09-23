@@ -103,14 +103,16 @@ const App = () => {
 
   const increaseSkill = (skillName, increasedValue) => {
     const newSkills = {...initialSkillPoints, [skillName]: increasedValue}
-    if (calculateTotalPoints(newSkills)<= totalSkillPoints) {
+    if (calculateTotalPoints(newSkills)> totalSkillPoints) {
+      alert('You need more skill points! Upgrade intelligence to get more points');
+    } else {
       setExtraSkillPoints(newSkills);
     }
   };
 
   const decreaseSkill = (skillName, decreasedValue) => {
     const newSkills = {...initialSkillPoints, [skillName]: decreasedValue}
-    if (calculateTotalPoints(newSkills)<= totalSkillPoints) {
+    if (initialSkillPoints[skillName] && calculateTotalPoints(newSkills)>=0) {
       setExtraSkillPoints(newSkills);
     }
   };
