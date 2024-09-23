@@ -44,3 +44,126 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
+/*Basic Styling*/
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(44, 47, 51);;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgb(35, 39, 42);
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+}
+
+.panel {
+  background-color: rgb(54, 57, 63);
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.panel h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.panel p, label {
+  margin: 10px 0;
+}
+
+.skill-check, .skill-modifier, .attribute-modifier {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input[type="text"], input[type="number"], select {
+  width: 100px;
+  padding: 8px;
+  margin-left: 10px;
+  background-color: rgb(59, 65, 72);
+  color: white;
+  border: 1px solid rgb(85, 85, 85);
+  border-radius: 4px;
+}
+
+button {
+  background-color: rgb(114, 137, 218);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button.active {
+  color: red;
+}
+
+button:hover {
+  background-color: rgb(90, 111, 163);;
+}
+
+button.skill-button {
+  background-color: rgb(67, 181, 129);;
+}
+
+button.skill-button:hover {
+  background-color: rgb(54, 151, 97);
+}
+
+.panel h4 {
+  font-size: 16px;
+}
+
+.panel .class-selector {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.panel .class-selector button {
+  width: 30%;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.skill-results {
+  margin: 15px 0;
+  padding: 15px;
+  border: 1px solid rgb(85, 85, 85);
+  border-radius: 8px;
+  background-color: rgb(47, 49, 54);
+  color: white;
+}
+
+.skill-results h3 {
+  font-size: 16px;
+  text-align: center;
+}
+
+.attribute-modifier button, .skill-modifier button {
+  background-color: rgb(153, 170, 181);
+}
+
+.attribute-modifier button:hover, .skill-modifier button:hover {
+  background-color: rgb(130, 138, 145);
+}
+
